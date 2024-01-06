@@ -29,7 +29,7 @@ const options = {
 fetch(url, options)
     .then((response) => response.json()) // Assuming the response is JSON
     .then((json) => {
-        console.log(json)
+        console.log(json.data)
         clipboardy.writeSync(json.data.token)
         clipboardy.readSync()
     })
