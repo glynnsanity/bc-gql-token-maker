@@ -1,4 +1,4 @@
-*** BigCommerce GraphQL Token Maker
+***BigCommerce GraphQL Token Maker
 
 This is a super simple node script to create a GraphQL Storefront token. Sometimes POSTMAN is annoying for me ;) 
 
